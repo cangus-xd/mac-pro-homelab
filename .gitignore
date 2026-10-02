@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Secrets / credentials
+.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python, if used later
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node, if used later
+node_modules/
+
+# Terraform, if used later
+.terraform/
+*.tfstate
+*.tfstate.*
